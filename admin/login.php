@@ -56,4 +56,4 @@ $_SESSION['protect'] = $data['protect'] = md5(rand(1548, 939999).date('Ymdhis'))
 $page->load_template('header', $data);
 //$page->load_template('menu', $data);
 $page->load_template('login_view', $data);
-$page->load_template('footer', $data);
+//$page->load_template('footer', $data);
