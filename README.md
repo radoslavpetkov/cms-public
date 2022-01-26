@@ -15,7 +15,7 @@ This is a simple CMS system.
   
   **Please change password after first login!**
  
-## Change/recover password
+## Recover password
 - point your browser tp **admin/default_password.php**
 - copy **hash** string
 - in your database **UPDATE users SET password = "hash" WHERE id=1** 
