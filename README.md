@@ -9,6 +9,12 @@ This is a simple CMS system.
  - edit **/inc/config.php** and change accordingly to your system
  - edit **/admin/inc/config.php** and change accordingly to your system
  
+ ### Admin login: admin/
+  - user: admin
+  - pass : admin
+  
+  **Please change password after first login!**
+ 
 ## Change/recover password
 - point your browser tp **admin/default_password.php**
 - copy **hash** string
