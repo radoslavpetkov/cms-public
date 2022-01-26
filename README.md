@@ -1,7 +1,7 @@
 # cms-simple
 This is a simple CMS system.
 
-## install instructions:
+## Install instructions:
  - download repository
  - create database
  - import **/admin/install/cms-simple.sql** to the database
@@ -16,6 +16,6 @@ This is a simple CMS system.
   **Please change password after first login!**
  
 ## Recover password
-- point your browser tp **admin/default_password.php**
-- copy **hash** string
-- in your database **UPDATE users SET password = "hash" WHERE id=1** 
+1. point your browser tp **admin/default_password.php**
+2. copy **hash** string
+3. in your database **UPDATE users SET password = "hash" WHERE id=1** 
