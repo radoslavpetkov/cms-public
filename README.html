@@ -1,0 +1,43 @@
+<!DOCTYPE html []>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="MarkdownViewer++" />
+    <title>README.md</title>
+    <style type="text/css">
+            
+/* Avoid page breaks inside the most common attributes, especially for exports (i.e. PDF) */
+td, h1, h2, h3, h4, h5, p, ul, ol, li {
+    page-break-inside: avoid; 
+}
+
+        </style>
+  </head>
+  <body>
+    <h1 id="cms-simple">cms-simple</h1>
+    <p>This is a simple CMS system.</p>
+    <h2 id="install-instructions">install instructions:</h2>
+    <ul>
+      <li>download repository</li>
+      <li>create database</li>
+      <li>import <strong>/admin/install/cms-simple.sql</strong> to the database</li>
+      <li>delete <strong>/admin/install</strong> folder</li>
+      <li>edit <strong>/inc/config.php</strong> and change accordingly to your system</li>
+      <li>edit <strong>/admin/inc/config.php</strong> and change accordingly to your system</li>
+    </ul>
+    <h3 id="admin-login-admin">Admin login: admin/</h3>
+    <ul>
+      <li>user: admin</li>
+      <li>pass : admin</li>
+    </ul>
+    <p>
+      <strong>Please change password after first login!</strong>
+    </p>
+    <h2 id="recover-password">Recover password</h2>
+    <ul>
+      <li>point your browser tp <strong>admin/default_password.php</strong></li>
+      <li>copy <strong>hash</strong> string</li>
+      <li>in your database <strong>UPDATE users SET password = "hash" WHERE id=1</strong></li>
+    </ul>
+  </body>
+</html>
